@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 #new
-import django_heroku
-import dj_database_url
+#import django_heroku
+#import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -80,21 +80,21 @@ WSGI_APPLICATION = 'quejasdiaco.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'quejas',
-#        'USER': 'quejas',
-#        'PASSWORD': 'woainiDA',
-#        'HOST': '127.0.0.1',
-#        'PORT': '5432',
-#    }
-#}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'quejas',
+        'USER': 'quejas',
+        'PASSWORD': 'woainiDA',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
 
 #new
-DATABASES = {
-    'default': dj_database_url.config()
-    }
+#DATABASES = {
+#    'default': dj_database_url.config()
+#    }
 
 
 # Password validation
@@ -136,4 +136,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #new
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
