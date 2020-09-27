@@ -1,12 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b393dee-6c6e-4f0c-b063-7a485bc5689c" name="Default Changelist" comment="" />
+    <list default="true" id="1b393dee-6c6e-4f0c-b063-7a485bc5689c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0003_auto_20200918_0817.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0004_auto_20200918_2005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0005_auto_20200918_2023.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0006_sucursal_id_depto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0007_auto_20200919_1645.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0008_delete_sucursal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/migrations/0009_auto_20200926_2119.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/templates/comercio/add_comercio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/templates/comercio/add_sucursal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/templates/comercio/muni_dropdown_list_options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comercio/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0002_auto_20200918_0817.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0003_auto_20200919_1645.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0004_auto_20200926_1641.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0005_auto_20200926_1813.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0006_auto_20200926_2118.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0007_auto_20200926_2119.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0008_formulario_id_region.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/migrations/0009_auto_20200926_2208.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/templates/frmqueja/muni_dropdown_list_options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frmqueja/templates/frmqueja/sucursal_dropdown_list_options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url-0.5.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/dj_database_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_admin_rangefilter-0.6.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku-0.3.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/django_heroku/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn-20.0.4.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/app/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/app/pasterapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/app/wsgiapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/arbiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/glogging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/body.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/unreader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/http/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/instrument/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/instrument/statsd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/pidfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/reloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/sock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/systemd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/base_async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/geventlet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/ggevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/gthread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/gtornado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/gunicorn/workers/workertmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/cs_CZ/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/cs_CZ/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/en_US/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/en_US/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/pt_PT/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/pt_PT/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/zh_CN/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/static/rangefilter/iife.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/templates/rangefilter/date_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/templates/rangefilter/date_filter_1_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/templates/rangefilter/date_filter_csp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/rangefilter/templatetags/rangefilter_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise-5.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise-5.2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise-5.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise-5.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise-5.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise-5.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/compress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/media_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/responders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/runserver_nostatic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/runserver_nostatic/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/runserver_nostatic/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/runserver_nostatic/management/commands/runserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/whitenoise/string_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt-1.3.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/BIFFRecords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Bitmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Cell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Column.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/CompoundDoc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/ExcelFormula.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/ExcelFormulaLexer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/ExcelFormulaParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/ExcelMagic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Row.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Style.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/UnicodeUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Workbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/Worksheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/antlr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/xlwt/excel-formula.g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/ipaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/msgpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/msgpack/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/msgpack/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/msgpack/ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/msgpack/fallback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/_typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/_in_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/colorlog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/dirtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/envbuild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pep517/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pkg_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pkg_resources/py31compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/progress/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/progress/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/progress/counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/progress/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/pyparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/_internal_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/certs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/requests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/compat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/compat/collections_abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/providers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/reporters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/resolvers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/resolvelib/structs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/retrying.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/toml/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/toml/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/toml/decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/toml/encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/toml/ordered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/toml/tz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/vendor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/webencodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/webencodings/labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/webencodings/mklabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/webencodings/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/~ip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quejas/Scripts/gunicorn.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requeriments_old.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubicacion/migrations/0004_auto_20200926_2118.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comercio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comercio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comercio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmqueja/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/frmqueja/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmqueja/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/frmqueja/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmqueja/templates/frmqueja/quejas.html" beforeDir="false" afterPath="$PROJECT_DIR$/frmqueja/templates/frmqueja/quejas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmqueja/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frmqueja/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmqueja/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frmqueja/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip-20.2.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/_internal/cli/base_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/_internal/commands/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Scripts/pip3.7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejas/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/quejas/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejasdiaco/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/quejasdiaco/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quejasdiaco/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quejasdiaco/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requeriments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeriments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubicacion/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ubicacion/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubicacion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ubicacion/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,7 +355,14 @@
   <component name="ProjectId" id="1h4hNz3LQ03fTIEAAiEgaq8UJzg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectoEstilos" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frmqueja/templates/frmqueja" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\edvin_rizo\quejas\frmqueja\templates\frmqueja" />
+      <recent name="C:\Users\edvin_rizo\quejas\comercio\templates\comercio" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +422,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

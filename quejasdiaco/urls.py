@@ -18,5 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('frmqueja.urls')),
+    path('', include(('frmqueja.urls', 'queja'))),
+    path('sucursal/', include(('comercio.urls', 'sucursal'))),
 ]
+
+admin.site.site_header = 'Administración Quejas Diaco'

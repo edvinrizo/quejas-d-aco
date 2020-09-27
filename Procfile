@@ -1,0 +1,1 @@
+web: gunicorn quejasdiaco.wsgi:application --log-file -

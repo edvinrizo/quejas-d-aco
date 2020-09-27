@@ -1,0 +1,8 @@
+{% extends 'frmqueja/base.html' %}
+{% block content %}
+    <form method="POST">{% csrf_token %}
+        <h2>Añadir un nuevo Comercio</h2>
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Guardar</button>
+    </form>
+{% endblock %}

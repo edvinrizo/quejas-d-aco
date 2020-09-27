@@ -1,6 +1,7 @@
 from django.urls import path
-from . import views
+from . views import nueva_queja, carga_municipios
 
 urlpatterns = [
-    path('', views.quejas_diaco, name='quejas_diaco'),
+    path('add/', nueva_queja, name='nueva_queja'),
+    path('ajax/municipios/', carga_municipios, name='carga_muni'),  # AJAX
 ]

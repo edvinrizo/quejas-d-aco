@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de Quejas</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400);
+      form{
+        padding: 80px;
+        max-width: 600px;
+        background-color: #E7E7E7;
+        margin: 0 auto;
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        border-style: outset;
+        border-width: 5px;
+      }
+
+      form input, form textarea, form select{
+        margin-bottom: 15px;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: none;
+        color: #525c66;
+        font-size: 1em;
+        resize: horizontal;
+      }
+
+      form button {
+	    display: block;
+	    background-color: #0095eb;
+	    padding: 10px 45px 10px 45px;
+	    border: 0;
+	    font-size: 1em;
+    	color: 	white;
+        font-family: "Roboto", sans-serif;
+      }
+      form button: hover{
+	    background-color: #046193;
+      }
+
+      a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    }
+    </style>
+  </head>
+  <body>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
